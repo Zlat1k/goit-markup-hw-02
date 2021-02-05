@@ -1,4 +1,4 @@
-.emblem {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -24,15 +24,32 @@ body {
     font-size: 14px;
 }
 
-.blue-link {
+.navigation .active,
+.navigation a:hover,
+.navigation a:focus {
     color: var(--blue-text);
+}
+
+.contacts {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
 
-.grey-link {
+.contacts-head a {
     color: var(--grey-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contacts-head a:hover,
+.contacts-head a:focus {
+    color: var(--blue-text);
+}
+
+.blue-link {
+    color: var(--blue-text);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -110,25 +127,28 @@ address {
     font-size: 14px;
 }
 
-.communications {
+.contacts a {
     color: var(--white-text-op60);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--blue-text);
+}
+
 .portfolio {
     background-color: white;
 }
 
-.active-btn {
-    border: var(--blue-text);
-    background: var(--blue-text);
-    color: var(--white-text); 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+.portfolio-btn.active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--blue-text);
 }
+
 
 .portfolio-btn {
     border: var(--team-background);
