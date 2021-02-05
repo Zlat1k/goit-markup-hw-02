@@ -1,0 +1,152 @@
+.emblem {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.web {
+    color: var(--blue-text);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: white;
+}
+
+.header a {
+    color: var(--black-text);
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.blue-link {
+    color: var(--blue-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.grey-link {
+    color: var(--grey-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.hero {
+    background-color: var(--hero-background);
+    color: var(--white-text);
+}
+.hero-btn {
+    border: var(--blue-text);
+    background: var(--blue-text);
+    color: var(--white-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;    
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.section-advantages {
+    background-color: white;
+}
+
+.advantages {
+    color: var(--black-text);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.text-advantages {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sect-header {
+    color: var(--black-text);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section-team {
+    background-color: var(--team-background);
+}
+
+.team-names {
+    color: var(--black-text);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.team-profession {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: var(--hero-background);
+}
+
+.footer a {
+    color: var(--white-text);
+}
+
+address {
+    color: var(--white-text);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.communications {
+    color: var(--white-text-op60);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portfolio {
+    background-color: white;
+}
+
+.active-btn {
+    border: var(--blue-text);
+    background: var(--blue-text);
+    color: var(--white-text); 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.portfolio-btn {
+    border: var(--team-background);
+    background: var(--team-background);
+    color: var(--black-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.port-img {
+    color: var(--black-text);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.port-img-text {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 16px;
+}
